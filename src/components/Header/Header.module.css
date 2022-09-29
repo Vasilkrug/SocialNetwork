@@ -1,0 +1,31 @@
+.header {
+    grid-area: header;
+    background-color: #353536;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid #5f6368;
+    height: 60px;
+}
+.icon {
+    width: 55px;
+    height: 55px;
+}
+.icon:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+.title h2 {
+    font-family: 'Comic Neue', cursive;
+    font-size: 45px;
+    color: snow;
+}
+.authorization a {
+    font-family: 'Comic Neue', cursive;
+    text-decoration: none;
+    font-size: 22px;
+    color: snow;
+    font-weight: 700;
+}

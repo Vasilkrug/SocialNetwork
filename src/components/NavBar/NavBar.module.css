@@ -1,0 +1,32 @@
+.nav {
+    grid-area: nav;
+    background-color: #353536;
+    border-radius: 15px;
+    border: 1px solid #5f6368;
+    min-height: calc(100vh - 60px - 40px);
+}
+.nav_list {
+    margin-top: 10px;
+}
+.nav_list img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.nav_list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    font-family: 'Comic Neue', cursive;
+    color: snow;
+    font-weight: 700;
+    margin-left: 20px;
+    height: 30px;
+    max-width: 150px;
+    padding: 10px;
+}
+.nav_list li:hover {
+    background-color: #5f6368;
+    border-radius: 10px;
+}
+
