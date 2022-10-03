@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="add new component DialogItem">
+    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="all components switch to russian language">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/PostForm/PostForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/PostForm/PostForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileAvatar/ProfileAvatar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileAvatar/ProfileAvatar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileLinks/ProfileLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileLinks/ProfileLinks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileAvatar/ProfileAvatar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileAvatar/ProfileAvatar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileLinks/ProfileLinks.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileLinks/ProfileLinks.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
       <workItem from="1664473134382" duration="604000" />
       <workItem from="1664473761113" duration="417000" />
       <workItem from="1664474198832" duration="5154000" />
-      <workItem from="1664814823635" duration="6619000" />
+      <workItem from="1664814823635" duration="7700000" />
     </task>
     <task id="LOCAL-00001" summary="scss added to all components">
       <created>1664817771604</created>
@@ -92,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664821947487</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="all components switch to russian language">
+      <created>1664822516217</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664822516217</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +118,8 @@
     <MESSAGE value="add new component DialogForm" />
     <MESSAGE value="add new component DialogList" />
     <MESSAGE value="add new component DialogItem" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new component DialogItem" />
+    <MESSAGE value="all components switch to russian language" />
+    <option name="LAST_COMMIT_MESSAGE" value="all components switch to russian language" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
