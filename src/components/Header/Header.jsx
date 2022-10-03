@@ -7,10 +7,10 @@ const Header = (props) => {
             <header className={styles.header}>
                 <img className={styles.icon} src="/images/icons/logo.png" alt="#"/>
                 <div className={styles.title}>
-                    <h2>Social Network</h2>
+                    <h2>Социальная сеть</h2>
                 </div>
                 <div className={styles.authorization}>
-                    <a type="button" href="#">Login</a>
+                    <a type="button" href="#">Войти</a>
                 </div>
             </header>
     );

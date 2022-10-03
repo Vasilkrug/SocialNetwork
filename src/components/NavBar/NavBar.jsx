@@ -5,11 +5,11 @@ const NavBar = (props) => {
     return (
         <nav className={styles.nav}>
             <ul className={styles.nav_list}>
-                <li><img src="/images/icons/user.png"/><Link to="/profile">Profile</Link></li>
-                <li> <img src="/images/icons/message.png"/><Link to="/dialogs">Messages</Link></li>
-                <li><img src="/images/icons/news.png"/><Link>News</Link></li>
-                <li><img src="/images/icons/music.png"/><Link>Music</Link></li>
-                <li><img src="/images/icons/settings.png"/><Link>Settings</Link></li>
+                <li><img src="/images/icons/user.png"/><Link to="/profile">Профиль</Link></li>
+                <li> <img src="/images/icons/message.png"/><Link to="/dialogs">Мои сообщения</Link></li>
+                <li><img src="/images/icons/news.png"/><Link>Новости</Link></li>
+                <li><img src="/images/icons/music.png"/><Link>Музыка</Link></li>
+                <li><img src="/images/icons/settings.png"/><Link>Настройки</Link></li>
             </ul>
         </nav>
     );
