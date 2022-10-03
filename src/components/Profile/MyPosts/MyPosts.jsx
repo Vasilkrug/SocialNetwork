@@ -9,7 +9,7 @@ const MyPosts = (props) => {
     return (
         <div>
             <PostForm/>
-            <Post message='Привет'/>
+            <Post message='Привет ,fkfkfkfkfkfkfkfkffkfkfk'/>
         </div>
     );
 }
