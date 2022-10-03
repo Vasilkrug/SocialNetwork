@@ -1,0 +1,22 @@
+.post_form {
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #5f6368;
+
+    textarea{
+        background-color: #353536;
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+        font-size: 20px;
+        color: snow;
+        padding: 10px;
+        outline: none;
+        transition: 0.5s;
+        resize: none;
+    }
+    textarea:focus {
+        padding: 20px;
+
+    }
+}

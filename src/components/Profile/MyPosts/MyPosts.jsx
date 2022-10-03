@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import styles from './MyPosts.module.css'
+import styles from './MyPosts.module.scss'
 import Post from "./Post/Post";
 import PostForm from "./PostForm/PostForm";
 

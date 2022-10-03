@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./ProfileDescription.module.css";
+import styles from "./ProfileDescription.module.scss";
 import ProfileLinks from "../ProfileLinks/ProfileLinks";
 
 const  ProfileDescription = (props) => {

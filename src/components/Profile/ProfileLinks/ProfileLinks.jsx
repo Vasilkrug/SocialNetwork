@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./ProfileLinks.module.css";
+import styles from "./ProfileLinks.module.scss";
 
 const ProfileLinks = (props) => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./PostForm.module.css";
+import styles from "./PostForm.module.scss";
 
 const PostForm = (props) => {
     return (

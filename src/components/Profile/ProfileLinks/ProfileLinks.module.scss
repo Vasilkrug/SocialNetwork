@@ -3,14 +3,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
 
-.nav h2 {
-    font-size: 35px;
-    color: snow;
-    text-align: center;
-    font-family: 'Comic Neue', cursive;
-    font-weight: 700;
+    h2 {
+        font-size: 35px;
+        color: snow;
+        text-align: center;
+        font-family: 'Comic Neue', cursive;
+        font-weight: 700;
+    }
 }
 
 .nav_links {
@@ -21,8 +21,7 @@
 .link {
     cursor: pointer;
     transition: 0.5s;
-}
-
-.link:hover {
-    transform: scale(1.3);
+    &:hover {
+        transform: scale(1.3);
+    }
 }

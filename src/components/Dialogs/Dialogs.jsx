@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Dialogs.module.css'
+import style from './Dialogs.module.scss'
 
 const Dialogs = () => {
 return (
@@ -11,13 +11,11 @@ return (
             <hr/>
         <ul>
             <li>Василий Кругловецкий</li>
-            <li>Владимир Путин</li>
-            <li>Дмитрий Медведев</li>
-            <li>Джо Байден</li>
+
         </ul>
         </div>
-        <div className={style.chat_item}>
-            <div className={style.dialog}>Привет</div>
+        <div className={style.chat_list}>
+            <div className={style.chat_item}>Привет</div>
             <div className={style.dialog}>Как дела?</div>
             <div className={style.dialog}>Что делаешь</div>
             <div className={style.dialog}>КАк дела?</div>
