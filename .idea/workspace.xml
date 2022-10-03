@@ -4,31 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="">
+    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="scss added to all components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/PostForm/PostForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/PostForm/PostForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/PostForm/PostForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/PostForm/PostForm.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileAvatar/ProfileAvatar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileAvatar/ProfileAvatar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileAvatar/ProfileAvatar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileAvatar/ProfileAvatar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileLinks/ProfileLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileLinks/ProfileLinks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileLinks/ProfileLinks.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileLinks/ProfileLinks.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +56,16 @@
       <workItem from="1664473134382" duration="604000" />
       <workItem from="1664473761113" duration="417000" />
       <workItem from="1664474198832" duration="5154000" />
-      <workItem from="1664814823635" duration="1866000" />
+      <workItem from="1664814823635" duration="5676000" />
     </task>
+    <task id="LOCAL-00001" summary="scss added to all components">
+      <created>1664817771604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664817771604</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +81,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="scss added to all components" />
+    <option name="LAST_COMMIT_MESSAGE" value="scss added to all components" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
