@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './Header.module.scss'
 
 const Header = (props) => {
-    console.log(styles)
     return (
             <header className={styles.header}>
                 <img className={styles.icon} src="/images/icons/logo.png" alt="#"/>

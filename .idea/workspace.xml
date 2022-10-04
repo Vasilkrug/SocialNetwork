@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="add title to Post">
+    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="add likes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogList/DialogItem/DialogItem.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogList/DialogItem/DialogItem.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogList/DialogList.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogList/DialogList.module.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +62,7 @@
       <workItem from="1664473134382" duration="604000" />
       <workItem from="1664473761113" duration="417000" />
       <workItem from="1664474198832" duration="5154000" />
-      <workItem from="1664814823635" duration="16377000" />
+      <workItem from="1664814823635" duration="19834000" />
     </task>
     <task id="LOCAL-00001" summary="scss added to all components">
       <created>1664817771604</created>
@@ -126,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664825064567</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="delete component DialogList">
+      <created>1664907455760</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664907455760</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add likes">
+      <created>1664907483235</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664907483235</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +160,9 @@
     <MESSAGE value="change font to Inter Tight" />
     <MESSAGE value="add title to ProfileDescription" />
     <MESSAGE value="add title to Post" />
-    <option name="LAST_COMMIT_MESSAGE" value="add title to Post" />
+    <MESSAGE value="delete component DialogList" />
+    <MESSAGE value="add likes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add likes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

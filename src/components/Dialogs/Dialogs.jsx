@@ -16,12 +16,10 @@ const Dialogs = () => {
             name: "Владимир Путин",
             path: "/images/animal.jpeg",
             message: "Здарова",
-            id: 1
+            id: 2
         }
     ])
-const [messages,seMessages] = useState([
-    {id:1,text:'Привет как дела?'}
-])
+
     return (
         <div className={style.dialogs_content}>
             <div className={style.dialogs}>
@@ -35,12 +33,13 @@ const [messages,seMessages] = useState([
                                 user={item.name}
                                 dialogPreview={item.message}
                                 id={item.id}
+                                key={item.id}
                             />
                         )
                     })}
                 </ul>
             </div>
-            {messages.map(item => <Chat message={item.text} id={item.id}/>)}
+            <Chat message="Hi" id={1}/>
         </div>
     )
 }
