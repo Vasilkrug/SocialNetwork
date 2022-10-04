@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
 import style from './Dialogs.module.scss'
-import DialogForm from "./DialogForm/DialogForm";
 import DialogItem from "./DialogItem/DialogItem";
 import Chat from "./Chat/Chat";
-
+import SearchForm from "../UI/SearchForm/SearchForm"
 const Dialogs = () => {
     const [dialog, setDialog] = useState([
         {
@@ -23,7 +22,7 @@ const Dialogs = () => {
     return (
         <div className={style.dialogs_content}>
             <div className={style.dialogs}>
-                <DialogForm/>
+                <SearchForm/>
                 <hr/>
                 <ul className={style.dialog_list}>
                     {dialog.map(item => {

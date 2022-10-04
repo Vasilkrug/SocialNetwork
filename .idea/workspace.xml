@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="add likes">
+    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="add styles to likes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogForm/DialogForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SearchForm/DialogForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogForm/DialogForm.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SearchForm/SearchForm.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/vasilkrug/projects/sam-app/src/components/Dialogs",
+    "last_opened_file_path": "/home/vasilkrug/projects/sam-app/src/components/UI",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -45,6 +47,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/UI" />
       <recent name="$PROJECT_DIR$/src/components/Dialogs" />
     </key>
   </component>
@@ -62,7 +65,7 @@
       <workItem from="1664473134382" duration="604000" />
       <workItem from="1664473761113" duration="417000" />
       <workItem from="1664474198832" duration="5154000" />
-      <workItem from="1664814823635" duration="19834000" />
+      <workItem from="1664814823635" duration="21678000" />
     </task>
     <task id="LOCAL-00001" summary="scss added to all components">
       <created>1664817771604</created>
@@ -134,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664907483235</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add styles to likes">
+      <created>1664911002060</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664911002060</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +172,8 @@
     <MESSAGE value="add title to Post" />
     <MESSAGE value="delete component DialogList" />
     <MESSAGE value="add likes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add likes" />
+    <MESSAGE value="add styles to likes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add styles to likes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
