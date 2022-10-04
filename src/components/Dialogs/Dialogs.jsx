@@ -1,21 +1,48 @@
-import React from 'react';
+import React, {useState} from 'react';
 import style from './Dialogs.module.scss'
 import DialogForm from "./DialogForm/DialogForm";
-import DialogList from "./DialogList/DialogList";
+import DialogItem from "./DialogItem/DialogItem";
+import Chat from "./Chat/Chat";
 
 const Dialogs = () => {
+    const [dialog, setDialog] = useState([
+        {
+            name: "Василий Кругловецкий",
+            path: "/images/animal.jpeg",
+            message: "какое то сообщение блабалалалалабалалаs",
+            id: 1
+        },
+        {
+            name: "Владимир Путин",
+            path: "/images/animal.jpeg",
+            message: "Здарова",
+            id: 1
+        }
+    ])
+const [messages,seMessages] = useState([
+    {id:1,text:'Привет как дела?'}
+])
     return (
         <div className={style.dialogs_content}>
             <div className={style.dialogs}>
-            <DialogForm/>
+                <DialogForm/>
                 <hr/>
-                <DialogList/>
+                <ul className={style.dialog_list}>
+                    {dialog.map(item => {
+                        return (
+                            <DialogItem
+                                pathToImage={item.path}
+                                user={item.name}
+                                dialogPreview={item.message}
+                                id={item.id}
+                            />
+                        )
+                    })}
+                </ul>
             </div>
-            <div className={style.chat_list}>
-                <div className={style.chat_item}>Привет</div>
-            </div>
+            {messages.map(item => <Chat message={item.text} id={item.id}/>)}
         </div>
-)
+    )
 }
 
 export default Dialogs;
