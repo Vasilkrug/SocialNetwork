@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="add state.js">
+    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="add new Component TextArea">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/PostForm/PostForm.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/PostForm/PostForm.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +71,7 @@
       <workItem from="1664814823635" duration="21678000" />
       <workItem from="1665252008133" duration="1194000" />
       <workItem from="1665341390652" duration="1882000" />
-      <workItem from="1665343630883" duration="6215000" />
+      <workItem from="1665343630883" duration="6591000" />
     </task>
     <task id="LOCAL-00001" summary="scss added to all components">
       <created>1664817771604</created>
@@ -163,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665425337831</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add new Component TextArea">
+      <created>1665427450958</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665427450958</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +194,8 @@
     <MESSAGE value="add likes" />
     <MESSAGE value="add styles to likes" />
     <MESSAGE value="add state.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add state.js" />
+    <MESSAGE value="add new Component TextArea" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new Component TextArea" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
