@@ -1,11 +1,11 @@
 import React from 'react';
 import style from "./DialogItem.module.scss";
 
-const DialogItem = ({pathToImage,user,dialogPreview,id}) => {
+const DialogItem = ({pathToImage, user, dialogPreview, id}) => {
     return (
         <li className={style.dialog_item}>
             <div className={style.dialog_photo}>
-                <img src={pathToImage}/>
+                <img src={pathToImage} alt="#"/>
             </div>
             <div className={style.dialog}>
                 <div className={style.dialog_title}>

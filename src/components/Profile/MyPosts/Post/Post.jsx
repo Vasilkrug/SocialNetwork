@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Post.module.scss'
 
-const Post = ({message,like,changeLike}) => {
+const Post = ({message, like, changeLike}) => {
     return (
         <div className={styles.post}>
-            <img className={styles.avatar} src="/images/avatar.png"/>
+            <img className={styles.avatar} src="/images/avatar.png" alt="avatar"/>
             <div className={styles.post_description}>
                 <h3>Василий Кругловецкий</h3>
                 <p>{message}</p>

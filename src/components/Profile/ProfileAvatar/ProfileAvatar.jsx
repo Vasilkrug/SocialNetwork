@@ -4,7 +4,7 @@ import styles from "./ProfileAvatar.module.scss";
 const ProfileAvatar = (props) => {
     return (
         <div className={styles.avatar_img}>
-            <img src='/images/avatar.png'/>
+            <img src='/images/avatar.png' alt="avatar"/>
             <button>Изменить фото</button>
         </div>
     );

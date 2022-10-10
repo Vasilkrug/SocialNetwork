@@ -3,21 +3,8 @@ import style from './Dialogs.module.scss'
 import DialogItem from "./DialogItem/DialogItem";
 import Chat from "./Chat/Chat";
 import SearchForm from "../UI/SearchForm/SearchForm"
-const Dialogs = () => {
-    const [dialog, setDialog] = useState([
-        {
-            name: "Василий Кругловецкий",
-            path: "/images/animal.jpeg",
-            message: "какое то сообщение блабалалалалабалалаs",
-            id: 1
-        },
-        {
-            name: "Владимир Путин",
-            path: "/images/animal.jpeg",
-            message: "Здарова",
-            id: 2
-        }
-    ])
+
+const Dialogs = ({state}) => {
 
     return (
         <div className={style.dialogs_content}>
@@ -25,7 +12,7 @@ const Dialogs = () => {
                 <SearchForm/>
                 <hr/>
                 <ul className={style.dialog_list}>
-                    {dialog.map(item => {
+                    {state.dialogs.map(item => {
                         return (
                             <DialogItem
                                 pathToImage={item.path}

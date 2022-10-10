@@ -5,11 +5,11 @@ import PostForm from "./PostForm/PostForm";
 
 
 const MyPosts = (props) => {
-const [isLike,setIsLike] = useState(false);
+    const [isLike, setIsLike] = useState(false);
 
-const likeHandler = () => {
-setIsLike(!isLike)
-}
+    const likeHandler = () => {
+        setIsLike(!isLike)
+    }
     return (
         <div>
             <PostForm/>
