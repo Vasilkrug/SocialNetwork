@@ -4,13 +4,15 @@ import TextArea from "../../UI/TextArea/TextArea";
 
 const Chat = ({message, id}) => {
     return (
-        <div className={style.chat_list}>
+        <div className={style.chat}>
             <div className={style.chat_title}>
                 <p>Собеседник</p>
                 <img src="/images/animal.jpeg"/>
             </div>
             <hr/>
-            <div className={style.chat_item}>{message}</div>
+            <ul className={style.messages_list}>
+                    <li className={style.messages_item}><p>Привет, ну как дела?чем занимаешься?</p></li>
+            </ul>
             <hr/>
             <div className={style.chat_input}>
                 <TextArea placeholder={"Напишите сообщение"}/>
