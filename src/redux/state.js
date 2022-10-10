@@ -3,7 +3,7 @@ const state = {
         dialogs: [
             {
                 name: "Василий Кругловецкий",
-                path: "/images/animal.jpeg",
+                path: "/images/avatar.png",
                 message: "какое то сообщение блабалалалалабалалаs",
                 id: 1
             },
