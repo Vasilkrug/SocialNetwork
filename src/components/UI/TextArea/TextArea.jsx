@@ -1,11 +1,9 @@
 import React from 'react';
 import styles from "./TextArea.module.scss";
 
-const TextArea = ({placeholder}) => {
+const TextArea = (props) => {
     return (
-        <form className={styles.post_form}>
-            <textarea placeholder={placeholder}/>
-        </form>
+            <textarea className={styles.textArea} {...props}/>
     );
 }
 
