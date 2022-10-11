@@ -7,15 +7,15 @@ const Chat = ({message, id}) => {
         <div className={style.chat}>
             <div className={style.chat_title}>
                 <p>Собеседник</p>
-                <img src="/images/animal.jpeg"/>
+                <img src="/images/animal.jpeg" alt="user-icon"/>
             </div>
             <hr/>
             <ul className={style.messages_list}>
-                    <li className={style.messages_item}><p>Привет, ну как дела?чем занимаешься?</p></li>
+                    <li className={style.messages_item}><p>{message}</p></li>
             </ul>
             <hr/>
             <div className={style.chat_input}>
-                <TextArea placeholder={"Напишите сообщение"}/>
+                <TextArea placeholder="Напишите сообщение"/>
             </div>
         </div>
     );
