@@ -1,9 +1,9 @@
 import React from 'react';
 import style from "./DialogItem.module.scss";
 
-const DialogItem = ({pathToImage, user, dialogPreview, id}) => {
+const DialogItem = ({pathToImage, user, dialogPreview,id,findId}) => {
     return (
-        <li className={style.dialog_item}>
+        <li onClick={() => findId(id)} className={style.dialog_item}>
             <div className={style.dialog_photo}>
                 <img src={pathToImage} alt="#"/>
             </div>

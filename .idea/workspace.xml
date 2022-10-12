@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="change form components">
+    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="added the ability to add posts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +77,7 @@
       <workItem from="1665252008133" duration="1194000" />
       <workItem from="1665341390652" duration="1882000" />
       <workItem from="1665343630883" duration="9528000" />
-      <workItem from="1665506172981" duration="5245000" />
+      <workItem from="1665506172981" duration="9722000" />
     </task>
     <task id="LOCAL-00001" summary="scss added to all components">
       <created>1664817771604</created>
@@ -196,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665511414417</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added the ability to add posts">
+      <created>1665511436308</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665511436308</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +240,8 @@
     <MESSAGE value="add Friends link to NavBar" />
     <MESSAGE value="add styles to Chat" />
     <MESSAGE value="change form components" />
-    <option name="LAST_COMMIT_MESSAGE" value="change form components" />
+    <MESSAGE value="added the ability to add posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the ability to add posts" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
