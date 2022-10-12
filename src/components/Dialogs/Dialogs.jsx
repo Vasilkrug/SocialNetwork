@@ -3,6 +3,7 @@ import style from './Dialogs.module.scss'
 import DialogItem from "./DialogItem/DialogItem";
 import Chat from "./Chat/Chat";
 import SearchForm from "../UI/SearchForm/SearchForm"
+import EmptyChat from "./EmptyChat/EmptyChat";
 
 const Dialogs = () => {
     const [dialogs,setDialogs] = useState([
@@ -46,7 +47,7 @@ console.log(activeDialog)
                     })}
                 </ul>
             </div>
-            {/*<Chat activeDialog={activeDialog}/>*/}
+            {Object.keys(activeDialog).length ? <Chat activeDialog={activeDialog}/> : <EmptyChat/>}
         </div>
     )
 }

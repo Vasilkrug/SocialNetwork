@@ -12,7 +12,7 @@ const Chat = ({activeDialog}) => {
             </div>
             <hr/>
             <ul className={style.messages_list}>
-                    <li className={style.messages_item}><p>{activeDialog.message}</p></li>
+                <li className={style.messages_item}><p>{activeDialog.message}</p></li>
             </ul>
             <hr/>
             <div className={style.chat_input}>

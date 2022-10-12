@@ -1,0 +1,15 @@
+.empty_chat_content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .image {
+
+  }
+
+  .description {
+    font-size: 17px;
+  }
+}
