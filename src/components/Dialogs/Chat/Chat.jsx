@@ -3,7 +3,6 @@ import style from "./Chat.module.scss";
 import TextArea from "../../UI/TextArea/TextArea";
 
 const Chat = ({activeDialog}) => {
-    console.log(activeDialog.id)
     return (
         <div className={style.chat}>
             <div className={style.chat_title}>
