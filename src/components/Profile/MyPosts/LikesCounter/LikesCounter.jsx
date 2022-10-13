@@ -21,7 +21,7 @@ const LikesCounter = () => {
                 alt="like"
                 src={isLike ? "/images/icons/red-heart.png" : "/images/icons/heart.png"}/>
             <CSSTransition in={isLike} timeout={300} classNames="my-node" unmountOnExit>
-                <p>{counter}</p>
+                <p>&nbsp;{counter}</p>
             </CSSTransition>
 
         </div>

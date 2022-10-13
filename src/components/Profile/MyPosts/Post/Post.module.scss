@@ -18,19 +18,45 @@
   .post_description {
     padding: 10px;
     word-break: break-word;
-    flex:1;
+    flex: 1;
 
-    h3 {
-      color: orange;
-      font-size: 17px;
-      font-family: 'Inter Tight', sans-serif;
+    .description_header {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
       margin-bottom: 10px;
+
+      h3 {
+        color: orange;
+        font-size: 17px;
+        font-family: 'Inter Tight', sans-serif;
+        margin-bottom: 10px;
+      }
+
+      button {
+        background: none;
+        border: none;
+        cursor: pointer;
+
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
     }
 
-    p {
-      color: snow;
-      font-size: 18px;
-      line-height: 25px;
+    .description_body {
+      p {
+        color: snow;
+        font-size: 18px;
+        line-height: 25px;
+      }
     }
+
+    .description_footer {
+      display: flex;
+      justify-content: flex-end;
+    }
+
   }
 }
