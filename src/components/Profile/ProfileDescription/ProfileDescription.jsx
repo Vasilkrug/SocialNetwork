@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from "./ProfileDescription.module.scss";
 import ProfileLinks from "../ProfileLinks/ProfileLinks";
+import styles from "./ProfileDescription.module.scss";
 
 const ProfileDescription = (props) => {
     return (

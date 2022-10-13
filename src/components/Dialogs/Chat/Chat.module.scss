@@ -1,6 +1,7 @@
 .chat {
   display: flex;
   flex-direction: column;
+
   .chat_title {
     height: 47px;
     padding: 10px;
@@ -27,6 +28,7 @@
     flex-direction: column-reverse;
     padding: 10px;
     overflow-y: auto;
+
     .messages_item {
       background-color: #5f6368;
       border-radius: 20px;

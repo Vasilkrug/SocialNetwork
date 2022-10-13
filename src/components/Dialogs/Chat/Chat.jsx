@@ -1,6 +1,6 @@
 import React from 'react';
-import style from "./Chat.module.scss";
 import TextArea from "../../UI/TextArea/TextArea";
+import style from "./Chat.module.scss";
 
 const Chat = ({activeDialog}) => {
     return (

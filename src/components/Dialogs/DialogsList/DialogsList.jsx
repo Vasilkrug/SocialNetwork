@@ -2,7 +2,7 @@ import React from 'react';
 import style from "../Dialogs.module.scss";
 import DialogItem from "./DialogItem/DialogItem";
 
-const DialogsList = ({dialogs,findId}) => {
+const DialogsList = ({dialogs, findId}) => {
     return (
         <ul className={style.dialog_list}>
             {dialogs.map(item => {

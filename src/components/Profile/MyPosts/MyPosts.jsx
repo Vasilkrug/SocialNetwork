@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import styles from './MyPosts.module.scss'
 import Post from "./Post/Post";
 import TextArea from "../../UI/TextArea/TextArea";
+import styles from './MyPosts.module.scss'
 
 const MyPosts = (props) => {
     const [inputValue, setInputValue] = useState('');

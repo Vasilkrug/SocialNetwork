@@ -3,7 +3,7 @@ import styles from "./TextArea.module.scss";
 
 const TextArea = (props) => {
     return (
-            <textarea className={styles.textArea} {...props}/>
+        <textarea className={styles.textArea} {...props}/>
     );
 }
 

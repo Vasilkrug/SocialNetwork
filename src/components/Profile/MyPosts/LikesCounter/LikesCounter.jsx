@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import styles from "./LikesCounter.module.scss";
 import {CSSTransition} from "react-transition-group";
+import styles from "./LikesCounter.module.scss";
 
 const LikesCounter = () => {
     const [isLike, setIsLike] = useState(false);
