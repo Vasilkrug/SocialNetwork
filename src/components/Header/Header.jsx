@@ -13,7 +13,7 @@ const Header = (props) => {
         <header className={styles.header}>
             <img className={styles.icon} src="/images/icons/logo.png" alt="#"/>
             <div className={styles.searchForm}>
-                <SearchForm styles={styleForSearchForm}/>
+                <SearchForm styles={styleForSearchForm} placeholder={'Поиск'}/>
             </div>
             <div className={styles.authorization}>
                 <a type="button" href="#">Выйти</a>

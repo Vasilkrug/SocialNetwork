@@ -1,0 +1,28 @@
+.friends_list {
+  width: 600px;
+  border: 1px solid #5f6368;
+  border-radius: 10px;
+  background-color: #353536;
+  height: 100%;
+
+  .friends_list_header {
+    height: 50px;
+    padding: 10px;
+    background-color: dimgray;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px solid #5f6368;
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size: 14px;
+      color: orange;
+      cursor: pointer;
+    }
+  }
+
+  .friends_list_body {
+
+  }
+}

@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Profile from "./components/Profile/Profile";
 import Dialogs from "./components/Dialogs/Dialogs";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+import FriendsList from "./components/FriendsList/FriendsList";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
                 <Routes>
                 <Route path="/dialogs" element={<Dialogs/>}/>
                 <Route path="/profile" element={<Profile/>}/>
+                <Route path="/friends" element={<FriendsList/>}/>
                 </Routes>
             </div>
         </div>

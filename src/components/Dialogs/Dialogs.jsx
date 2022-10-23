@@ -29,7 +29,7 @@ const Dialogs = () => {
     return (
         <div className={style.dialogs_content}>
             <div className={style.dialogs}>
-                <SearchForm/>
+                <SearchForm placeholder={'Поиск'}/>
                 <hr/>
                 <DialogsList dialogs={dialogs} findId={findId}/>
             </div>

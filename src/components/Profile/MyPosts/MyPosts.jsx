@@ -7,7 +7,6 @@ const MyPosts = (props) => {
     const [inputValue, setInputValue] = useState('');
     const [posts, setPosts] = useState([])
 
-
     const addPost = (e) => {
         const successAdding = () => {
             e.preventDefault()
@@ -26,13 +25,17 @@ const MyPosts = (props) => {
     }
 
     return (
-        <div>
+        <div className="my_posts">
             <TextArea
                 onKeyDown={(event) => addPost(event)}
                 onChange={(event) => inputHandler(event)}
                 value={inputValue}
                 placeholder='Напишите что нибудь'/>
-            {posts.map(post => <Post deletePost={deletePost} key={post.id} id={post.id} message={post.message}/>)}
+            {posts.map(post =>
+                <Post
+                    deletePost={deletePost}
+                    key={post.id} id={post.id}
+                    message={post.message}/>)}
         </div>
     );
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import style from "./SearchForm.module.scss";
 
-const SearchForm = ({styles}) => {
+const SearchForm = ({placeholder,styles}) => {
     return (
-        <input className={style.searchForm} style={{...styles}} placeholder='Поиск'/>
+        <input className={style.searchForm} style={{...styles}} placeholder={placeholder}/>
     )
 }
 
