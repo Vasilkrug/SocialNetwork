@@ -1,0 +1,32 @@
+.friends_list_item {
+  padding: 5px;
+  display: flex;
+  grid-gap: 10px;
+  border-bottom: 1px solid #5f6368;
+  width: 90%;
+  margin: 0 auto;
+
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #5f6368;
+  }
+
+  .friends_list_item_desc {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    grid-gap: 20px;
+
+    p {
+      display: block;
+    }
+
+    span {
+      display: block;
+      color: orange;
+      cursor: pointer;
+    }
+  }
+}
