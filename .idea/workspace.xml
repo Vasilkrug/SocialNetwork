@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="add new component FriendsListItem">
+    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="add redux to project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FriendsList/FriendsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FriendsList/FriendsList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FriendsList/FriendsListItem/FriendsListItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FriendsList/FriendsListItem/FriendsListItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FriendsList/FriendsListItem/FriendsListItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FriendsList/FriendsListItem/FriendsListItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/LikesCounter/LikesCounter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/LikesCounter/LikesCounter.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/TextArea/TextArea.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/TextArea/TextArea.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +84,7 @@
       <workItem from="1666276512364" duration="1654000" />
       <workItem from="1666514189909" duration="12455000" />
       <workItem from="1666539887557" duration="9308000" />
-      <workItem from="1666627783629" duration="9188000" />
+      <workItem from="1666627783629" duration="11041000" />
     </task>
     <task id="LOCAL-00001" summary="scss added to all components">
       <created>1664817771604</created>
@@ -274,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666531876967</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add redux to project">
+      <created>1666637228357</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1666637228357</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +286,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="scss added to all components" />
     <MESSAGE value="add new component DialogForm" />
     <MESSAGE value="add new component DialogList" />
     <MESSAGE value="add new component DialogItem" />
@@ -317,7 +310,8 @@
     <MESSAGE value="removed extra spaces in the code" />
     <MESSAGE value="add new component FriendsList" />
     <MESSAGE value="add new component FriendsListItem" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new component FriendsListItem" />
+    <MESSAGE value="add redux to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add redux to project" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

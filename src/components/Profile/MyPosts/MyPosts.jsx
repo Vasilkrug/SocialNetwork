@@ -3,6 +3,7 @@ import Post from "./Post/Post";
 import TextArea from "../../UI/TextArea/TextArea";
 import styles from './MyPosts.module.scss'
 import {useDispatch, useSelector} from "react-redux";
+import EmptyPost from "./EmptyPost/EmptyPost";
 
 const MyPosts = (props) => {
     const [inputValue,setInputValue] = useState('')
@@ -32,11 +33,13 @@ const MyPosts = (props) => {
                 onChange={(event) => inputHandler(event)}
                 value={inputValue}
                 placeholder='Напишите что нибудь'/>
-            {posts.map(post =>
+            {posts.length ? posts.map(post =>
                 <Post
                     deletePost={deletePost}
                     key={post.id} id={post.id}
-                    message={post.message}/>)}
+                    message={post.message}/>)
+                :
+            <EmptyPost/>}
         </div>
     );
 }
