@@ -13,9 +13,6 @@ const FriendsList = () => {
             <hr/>
             <ul className={styles.friends_list_body}>
                 <FriendsListItem/>
-                <FriendsListItem/>
-                <FriendsListItem/>
-                <FriendsListItem/>
             </ul>
         </div>
     );

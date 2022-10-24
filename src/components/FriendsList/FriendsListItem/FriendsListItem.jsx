@@ -8,7 +8,10 @@ const FriendsListItem = () => {
                 <img src="/images/animal.jpeg" alt="#"/>
             </div>
             <div className={styles.friends_list_item_desc}>
-                <p>Владимир Путин</p>
+                <div className={styles.body}>
+                    <a>Владимир Путин</a>
+                    <span>...</span>
+                </div>
                 <span>Написать сообщение</span>
             </div>
         </li>

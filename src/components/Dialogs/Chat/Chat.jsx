@@ -9,11 +9,9 @@ const Chat = ({activeDialog}) => {
                 <p>{activeDialog.name}</p>
                 <img src={activeDialog.path} alt="user-icon"/>
             </div>
-            <hr/>
             <ul className={style.messages_list}>
                 <li className={style.messages_item}><p>{activeDialog.message}</p></li>
             </ul>
-            <hr/>
             <div className={style.chat_input}>
                 <TextArea placeholder="Напишите сообщение"/>
             </div>

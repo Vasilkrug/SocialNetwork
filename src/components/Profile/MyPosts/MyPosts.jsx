@@ -2,30 +2,31 @@ import React, {useState} from 'react';
 import Post from "./Post/Post";
 import TextArea from "../../UI/TextArea/TextArea";
 import styles from './MyPosts.module.scss'
+import {useDispatch, useSelector} from "react-redux";
 
 const MyPosts = (props) => {
-    const [inputValue, setInputValue] = useState('');
-    const [posts, setPosts] = useState([])
+    const [inputValue,setInputValue] = useState('')
+    const dispatch = useDispatch()
+    const posts = useSelector(state => state.posts.posts)
 
     const addPost = (e) => {
         const successAdding = () => {
             e.preventDefault()
-            setPosts([{message: inputValue, id: Date.now()}, ...posts])
+            dispatch({type:'ADD_POST',payload:inputValue})
             setInputValue('')
         }
         e.key === 'Enter' ? successAdding() : '';
     }
     const deletePost = (id) => {
-        const filteredArray = posts.filter(post => post.id !== id)
-        setPosts(filteredArray)
+        dispatch({type:'DELETE_POST',payload:id})
     }
 
     const inputHandler = (e) => {
-        setInputValue(e.target.value)
+     setInputValue(e.target.value)
     }
 
     return (
-        <div className="my_posts">
+        <div className={styles.my_posts}>
             <TextArea
                 onKeyDown={(event) => addPost(event)}
                 onChange={(event) => inputHandler(event)}
