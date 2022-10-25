@@ -4,10 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="add redux to project">
+    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="add new component EmptyPost">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/LikesCounter/LikesCounter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/LikesCounter/LikesCounter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsList/DialogItem/DialogItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsList/DialogItem/DialogItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/EmptyChat/EmptyChat.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/EmptyChat/EmptyChat.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FriendsList/FriendsList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FriendsList/FriendsList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FriendsList/FriendsListItem/FriendsListItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FriendsList/FriendsListItem/FriendsListItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/EmptyPost/EmptyPost.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/EmptyPost/EmptyPost.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/LikesCounter/LikesCounter.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/LikesCounter/LikesCounter.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileAvatar/ProfileAvatar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileAvatar/ProfileAvatar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileLinks/ProfileLinks.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileLinks/ProfileLinks.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/SearchForm/SearchForm.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SearchForm/SearchForm.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/TextArea/TextArea.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/TextArea/TextArea.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/reset.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +100,8 @@
       <workItem from="1666276512364" duration="1654000" />
       <workItem from="1666514189909" duration="12455000" />
       <workItem from="1666539887557" duration="9308000" />
-      <workItem from="1666627783629" duration="11041000" />
+      <workItem from="1666627783629" duration="12265000" />
+      <workItem from="1666721252016" duration="2592000" />
     </task>
     <task id="LOCAL-00001" summary="scss added to all components">
       <created>1664817771604</created>
@@ -268,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666637228357</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add new component EmptyPost">
+      <created>1666639364475</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1666639364475</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +310,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add new component DialogForm" />
     <MESSAGE value="add new component DialogList" />
     <MESSAGE value="add new component DialogItem" />
     <MESSAGE value="all components switch to russian language" />
@@ -311,7 +334,8 @@
     <MESSAGE value="add new component FriendsList" />
     <MESSAGE value="add new component FriendsListItem" />
     <MESSAGE value="add redux to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add redux to project" />
+    <MESSAGE value="add new component EmptyPost" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new component EmptyPost" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

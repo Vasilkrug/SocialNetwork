@@ -1,8 +1,9 @@
+@import "src/style/variables";
 .like {
   cursor: pointer;
   align-self: end;
   display: flex;
-  color: orange;
+  color: $title-color;
 
   img {
     width: 20px;

@@ -1,8 +1,9 @@
+@import "src/style/variables";
 .friends_list_item {
   padding: 5px;
   display: flex;
   grid-gap: 10px;
-  border-bottom: 1px solid #5f6368;
+  border-bottom: 1px solid $border-color;
   width: 90%;
   margin: 0 auto;
 
@@ -10,13 +11,13 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    border: 1px solid #5f6368;
+    border: 1px solid $border-color;
   }
 
   .friends_list_item_desc {
     display: flex;
     flex-direction: column;
-    font-size: 15px;
+    font-size: $font-size-text;
     grid-gap: 20px;
     width: 100%;
 
@@ -34,7 +35,7 @@
 
     span {
       display: block;
-      color: orange;
+      color: $title-color;
       cursor: pointer;
       width: max-content;
     }

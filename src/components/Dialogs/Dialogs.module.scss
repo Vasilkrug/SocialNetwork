@@ -1,13 +1,15 @@
+@import "src/style/variables";
+
 .dialogs_content {
   display: grid;
   grid-template-columns: 2fr 4fr;
-  background-color: #353536;
-  border: 1px solid #5f6368;
-  border-radius: 10px;
+  background-color: $background-color-blocks;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
   height: calc(100vh - 60px - 40px);
 
   .dialogs {
-    border-right: 1px solid #5f6368;
+    border-right: 1px solid $border-color;
     overflow-y: auto;
   }
 }

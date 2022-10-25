@@ -1,3 +1,5 @@
+@import "src/style/variables";
+
 .chat {
   display: flex;
   flex-direction: column;
@@ -6,12 +8,12 @@
   .chat_title {
     height: 49px;
     padding: 10px;
-    font-size: 17px;
+    font-size: $font-size-text;
     color: orange;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #757575;
+    border-bottom: 2px solid $border-color;
 
     p {
       display: block;
@@ -35,7 +37,7 @@
       background-color: #5f6368;
       border-radius: 20px;
       width: content-box;
-      font-size: 16px;
+      font-size: $font-size-text;
       height: auto;
       margin-bottom: 10px;
       padding: 10px;
@@ -45,7 +47,7 @@
 
   .chat_input {
     width: 100%;
-    border-top: 1px solid #5f6368;
+    border-top: 1px solid $border-color;
     display: flex;
     justify-content: center;
     padding: 10px;

@@ -23,7 +23,6 @@ const Header = (props) => {
                 <SearchForm styles={styleForSearchForm} placeholder={'Поиск'}/>
             </div>
             <div className={styles.authorization}>
-                <a type="button" href="#">Выйти</a>
                 <ul className={styles.menu}>
                     <li><img src="/images/avatar.png" alt="avatar"/></li>
                     <li>
@@ -35,7 +34,7 @@ const Header = (props) => {
                         </svg>
                             <ul className={styles[isMenuVisible ? `show` : '']}>
                                 <li>Темная тема</li>
-                                <li>Выйти</li>
+                                <li><a type="button" href="#">Выйти</a></li>
                             </ul>
                     </li>
                 </ul>

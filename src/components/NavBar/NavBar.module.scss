@@ -1,8 +1,9 @@
+@import "src/style/variables";
 .nav {
     grid-area: nav;
-    background-color: #353536;
-    border-radius: 15px;
-    border: 1px solid #5f6368;
+    background-color: $background-color-blocks;
+    border-radius: $border-radius;
+    border: 1px solid $border-color;
     height: calc(100vh - 60px - 40px);
 
     .nav_list {
@@ -20,12 +21,12 @@
             height: 30px;
             max-width: 180px;
             padding: 10px;
-            font-size: 17px;
+            font-size: $font-size-text;
             cursor: pointer;
         }
         li:hover {
-            background-color: #5f6368;
-            border-radius: 10px;
+            background-color: $background-color-blocks;
+            border-radius: $border-radius;
         }
     }
 

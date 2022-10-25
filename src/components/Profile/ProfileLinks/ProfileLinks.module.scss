@@ -1,3 +1,4 @@
+@import "src/style/variables";
 .nav {
   flex: 2;
   display: flex;
@@ -5,7 +6,7 @@
   justify-content: space-around;
 
   h2 {
-    font-size: 25px;
+    font-size: $font-size-title;
     text-align: center;
   }
 }
