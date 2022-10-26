@@ -1,19 +1,19 @@
 @import "src/style/variables";
 .avatar_img {
-  border: 1px solid $border-color;
-  background-color: $background-color-blocks;
-  border-radius: $border-radius;
+  border: 1px solid var(--border-color);
+  background-color: var(--background-color-blocks);
+  border-radius: var(--border-radius);
   width: 200px;
 
   button {
     font-family: 'Inter Tight', sans-serif;
     cursor: pointer;
-    background-color: $button-background-color;
-    color: $text-color;
+    background-color: var(--button-background-color);
+    color: var(--text-color);
     border: none;
-    border-radius: $border-radius;
+    border-radius: var(--border-radius);
     width: 150px;
-    font-size: $font-size-text;
+    font-size: var(--font-size-text);
     display: block;
     margin: 10px auto;
   }
@@ -21,8 +21,8 @@
   img {
     width: 200px;
     height: 200px;
-    border-bottom-left-radius: $border-radius;
-    border-bottom-right-radius: $border-radius;
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
   }
 }
 

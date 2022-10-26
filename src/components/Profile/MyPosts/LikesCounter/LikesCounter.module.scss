@@ -3,7 +3,7 @@
   cursor: pointer;
   align-self: end;
   display: flex;
-  color: $title-color;
+  color: var(--title-color);
 
   img {
     width: 20px;

@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "../Dialogs.module.scss";
+import style from "./DialogList.module.scss";
 import DialogItem from "./DialogItem/DialogItem";
 
 const DialogsList = ({dialogs, findId}) => {

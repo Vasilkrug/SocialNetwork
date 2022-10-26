@@ -30,7 +30,6 @@ const Dialogs = () => {
         <div className={style.dialogs_content}>
             <div className={style.dialogs}>
                 <SearchForm placeholder={'Поиск'}/>
-                <hr/>
                 <DialogsList dialogs={dialogs} findId={findId}/>
             </div>
             {Object.keys(activeDialog).length ? <Chat activeDialog={activeDialog}/> : <EmptyChat/>}

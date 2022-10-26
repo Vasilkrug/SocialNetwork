@@ -2,24 +2,24 @@
 
 .friends_list {
   width: 600px;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  background-color: $background-color-blocks;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  background-color: var(--background-color-blocks);
   height: 100%;
 
   .friends_list_header {
     height: 50px;
     padding: 10px;
-    background-color: dimgray;
-    border-top-right-radius: $border-radius;
-    border-top-left-radius: $border-radius;
-    border-bottom: 1px solid $border-color;
+    background-color: var(--background-color-blocks);
+    border-top-right-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
+    border-bottom: 1px solid var(--border-color);
     display: flex;
     align-items: center;
 
     span {
       font-size: 14px;
-      color: $title-color;
+      color: var(--title-color);
       cursor: pointer;
     }
   }

@@ -1,9 +1,28 @@
-$background-color-body:#0A0A0A;
-$background-color-blocks:#353536;
-$text-color:snow;
-$border-color:#5f6368;
-$button-background-color:#5f6368;
-$title-color:orange;
-$font-size-text:16px;
-$font-size-title:20px;
-$border-radius:10px;
+html[data-theme='dark'] {
+  --background-color-body: #0A0A0A;
+  --background-color-blocks: #353536;
+  --text-color: snow;
+  --border-color: #5f6368;
+  --button-background-color: #5f6368;
+  --title-color: orange;
+  --font-size-text: 16px;
+  --font-size-title: 20px;
+  --border-radius: 10px;
+  --background-color-hover:#5f6368;
+  --chat-font-color:#C9C0BB;
+}
+
+html[data-theme='light'] {
+  --background-color-body: #FDF4E3;
+  --background-color-blocks: #FDF4E3;
+  --text-color: #140F0B;
+  --border-color: #f7c67c;
+  --button-background-color: #f7c67c;
+  --title-color: orange;
+  --font-size-text: 16px;
+  --font-size-title: 20px;
+  --border-radius: 10px;
+  --background-color-hover:#E5E4E2;
+  --chat-font-color:#474A51;
+}
+

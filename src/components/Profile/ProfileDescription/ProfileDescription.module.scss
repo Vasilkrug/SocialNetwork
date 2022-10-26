@@ -1,21 +1,24 @@
 @import "src/style/variables";
 .description {
-  background-color: $background-color-blocks;
-  border-radius: $border-radius;
+  background-color: var(--background-color-blocks);
+  border-radius: var(--border-radius);
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 1px solid $border-color;
+  border: 1px solid var(--border-color);
 
+  hr {
+    border: 1px solid var(--border-color);
+  }
   .user_title {
     width: 50%;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid var(--border-color);
     margin: 0 auto;
 
     h2 {
       padding: 10px;
-      font-size: $font-size-title;
+      font-size: var(--font-size-title);
       text-align: center;
     }
   }
@@ -25,11 +28,11 @@
     justify-content: space-around;
     align-items: center;
     flex: 1;
-    font-size: $font-size-text;
+    font-size: var(--font-size-text);
     font-family: 'Inter Tight', sans-serif;
 
     span {
-      color: $title-color;
+      color: var(--title-color);
     }
 
     img {

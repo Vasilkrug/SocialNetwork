@@ -1,11 +1,11 @@
 @import "src/style/variables";
 .textArea {
-  border-radius: $border-radius;
-  border: 1px solid $border-color;
-  background-color: $background-color-blocks;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  background-color: var(--background-color-blocks);
   width: 100%;
-  font-size: $font-size-text;
-  color: $text-color;
+  font-size: var(--font-size-text);
+  color: var(--text-color);
   padding: 10px;
   outline: none;
   resize: none;

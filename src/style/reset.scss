@@ -6,7 +6,7 @@ ul li {
 a {
   cursor: pointer;
   text-decoration: none;
-  color: $text-color;
+  color: var(--text-color);
   font-family: 'Inter Tight', sans-serif;
 }
 
@@ -21,6 +21,10 @@ h2 {
 }
 
 body {
-  background-color: $background-color-body;
-  color: $text-color;
+  background-color: var(--background-color-body);
+  color: var(--text-color);
+  transition: background-color 600ms ease;
+  * {
+    transition: background-color 400ms ease;
+  }
 }

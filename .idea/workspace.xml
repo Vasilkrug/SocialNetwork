@@ -6,10 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="add new component EmptyPost">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsList/DialogItem/DialogItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsList/DialogItem/DialogItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsList/DialogList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsList/DialogList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsList/DialogsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsList/DialogsList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/EmptyChat/EmptyChat.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/EmptyChat/EmptyChat.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FriendsList/FriendsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FriendsList/FriendsList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FriendsList/FriendsList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FriendsList/FriendsList.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FriendsList/FriendsListItem/FriendsListItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FriendsList/FriendsListItem/FriendsListItem.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
@@ -24,6 +29,7 @@
       <change beforePath="$PROJECT_DIR$/src/components/UI/SearchForm/SearchForm.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SearchForm/SearchForm.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/TextArea/TextArea.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/TextArea/TextArea.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +108,7 @@
       <workItem from="1666539887557" duration="9308000" />
       <workItem from="1666627783629" duration="12265000" />
       <workItem from="1666721252016" duration="2592000" />
+      <workItem from="1666798923893" duration="7557000" />
     </task>
     <task id="LOCAL-00001" summary="scss added to all components">
       <created>1664817771604</created>

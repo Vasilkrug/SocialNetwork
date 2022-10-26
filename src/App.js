@@ -9,6 +9,7 @@ import FriendsList from "./components/FriendsList/FriendsList";
 
 
 const App = () => {
+
     return (
         <BrowserRouter>
         <div className="app_wrapper">
