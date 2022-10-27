@@ -1,20 +1,15 @@
-import React, {useState} from 'react';
-import styles from './Header.module.scss'
+import React, {useState} from "react";
 import {switchTheme} from "../../hooks/switchTheme";
+import styles from "./Header.module.scss";
 
 const Header = (props) => {
-    const styleForSearchForm = {
-        border: "1px solid #5f6368",
-        borderRadius: "20px",
-        padding: "0 0 0 30px",
-        height: "40px"
-    }
+
     const [isMenuVisible, setIsMenuVisible] = useState(false);
+    const {theme, setTheme} = switchTheme();
 
     const showMenu = () => {
         setIsMenuVisible(!isMenuVisible)
     }
-    const {theme, setTheme} = switchTheme();
 
     const handleThemeClick = (e) => {
         e.target.text === 'Темная тема' ? setTheme('dark') : setTheme('light')
@@ -33,7 +28,7 @@ const Header = (props) => {
                                   d="M2.16 2.3a.75.75 0 0 1 1.05-.14L6 4.3l2.8-2.15a.75.75 0 1 1 .9 1.19l-3.24 2.5c-.27.2-.65.2-.92 0L2.3 3.35a.75.75 0 0 1-.13-1.05z"
                                   fill="currentColor" fillRule="evenodd"></path>
                         </svg>
-                        <ul className={styles[isMenuVisible ? `show` : '']}>
+                        <ul className={styles[isMenuVisible ? `show` : 'hidden']}>
                             <li onClick={(event) => handleThemeClick(event)}>
                                 <a type="button">{theme === 'dark' ? 'Светлая тема' : 'Темная тема'}</a>
                             </li>

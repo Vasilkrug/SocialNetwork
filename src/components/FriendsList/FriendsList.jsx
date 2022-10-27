@@ -1,6 +1,6 @@
-import React from 'react';
-import styles from './FriendsList.module.scss'
+import React from "react";
 import FriendsListItem from "./FriendsListItem/FriendsListItem";
+import styles from "./FriendsList.module.scss";
 
 const FriendsList = () => {
     return (

@@ -7,7 +7,7 @@ const Chat = ({activeDialog}) => {
         <div className={style.chat}>
             <div className={style.chat_title}>
                 <p>{activeDialog.name}</p>
-                <img src={activeDialog.path} alt="user-icon"/>
+                <img src={`${activeDialog.img}`} alt="user-icon"/>
             </div>
             <ul className={style.messages_list}>
                 <li className={style.messages_item}><p>{activeDialog.message}</p></li>

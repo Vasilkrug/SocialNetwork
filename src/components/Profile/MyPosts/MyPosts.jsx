@@ -1,45 +1,38 @@
-import React, {useState} from 'react';
+import React from 'react';
+import {useDispatch, useSelector} from "react-redux";
 import Post from "./Post/Post";
 import TextArea from "../../UI/TextArea/TextArea";
-import styles from './MyPosts.module.scss'
-import {useDispatch, useSelector} from "react-redux";
 import EmptyPost from "./EmptyPost/EmptyPost";
+import {addPostAction, deletePostAction} from "../../../store/actions";
+import styles from "./MyPosts.module.scss";
 
 const MyPosts = (props) => {
-    const [inputValue,setInputValue] = useState('')
     const dispatch = useDispatch()
     const posts = useSelector(state => state.posts.posts)
 
     const addPost = (e) => {
         const successAdding = () => {
             e.preventDefault()
-            dispatch({type:'ADD_POST',payload:inputValue})
-            setInputValue('')
+            dispatch(addPostAction(e.target.value))
+            e.target.value = ""
         }
-        e.key === 'Enter' ? successAdding() : '';
-    }
-    const deletePost = (id) => {
-        dispatch({type:'DELETE_POST',payload:id})
+        e.key === "Enter" ? successAdding() : "";
     }
 
-    const inputHandler = (e) => {
-     setInputValue(e.target.value)
-    }
+    const deletePost = (id) => dispatch(deletePostAction(id));
 
     return (
         <div className={styles.my_posts}>
             <TextArea
                 onKeyDown={(event) => addPost(event)}
-                onChange={(event) => inputHandler(event)}
-                value={inputValue}
                 placeholder='Напишите что нибудь'/>
             {posts.length ? posts.map(post =>
-                <Post
-                    deletePost={deletePost}
-                    key={post.id} id={post.id}
-                    message={post.message}/>)
+                    <Post
+                        deletePost={deletePost}
+                        key={post.id} id={post.id}
+                        message={post.message}/>)
                 :
-            <EmptyPost/>}
+                <EmptyPost/>}
         </div>
     );
 }

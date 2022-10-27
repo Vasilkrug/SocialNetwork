@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './EmptyPost.module.scss'
+import React from "react";
+import styles from "./EmptyPost.module.scss";
 
 const EmptyPost = () => {
     return (

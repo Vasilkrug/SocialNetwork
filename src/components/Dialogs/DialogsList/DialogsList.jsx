@@ -8,7 +8,7 @@ const DialogsList = ({dialogs, findId}) => {
             {dialogs.map(item => {
                 return (
                     <DialogItem
-                        pathToImage={item.path}
+                        pathToImage={item.img}
                         user={item.name}
                         dialogPreview={item.message}
                         id={item.id}

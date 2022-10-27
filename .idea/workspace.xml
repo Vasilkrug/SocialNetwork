@@ -4,30 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="add new component EmptyPost">
+    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="add light theme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Chat/Chat.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsList/DialogItem/DialogItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsList/DialogItem/DialogItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsList/DialogList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsList/DialogList.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsList/DialogsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsList/DialogsList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/EmptyChat/EmptyChat.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/EmptyChat/EmptyChat.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FriendsList/FriendsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FriendsList/FriendsList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FriendsList/FriendsList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FriendsList/FriendsList.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FriendsList/FriendsListItem/FriendsListItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FriendsList/FriendsListItem/FriendsListItem.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/EmptyPost/EmptyPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/EmptyPost/EmptyPost.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/EmptyPost/EmptyPost.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/EmptyPost/EmptyPost.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/LikesCounter/LikesCounter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/LikesCounter/LikesCounter.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/LikesCounter/LikesCounter.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/LikesCounter/LikesCounter.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileAvatar/ProfileAvatar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileAvatar/ProfileAvatar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileLinks/ProfileLinks.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileLinks/ProfileLinks.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/SearchForm/SearchForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SearchForm/SearchForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/SearchForm/SearchForm.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SearchForm/SearchForm.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/TextArea/TextArea.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/TextArea/TextArea.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/switchTheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/switchTheme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/PostReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/PostReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/reset.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/variables.scss" afterDir="false" />
     </list>
@@ -39,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -57,6 +64,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -108,7 +116,9 @@
       <workItem from="1666539887557" duration="9308000" />
       <workItem from="1666627783629" duration="12265000" />
       <workItem from="1666721252016" duration="2592000" />
-      <workItem from="1666798923893" duration="7557000" />
+      <workItem from="1666798923893" duration="13678000" />
+      <workItem from="1666882403291" duration="524000" />
+      <workItem from="1666893103631" duration="4297000" />
     </task>
     <task id="LOCAL-00001" summary="scss added to all components">
       <created>1664817771604</created>
@@ -299,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666639364475</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add light theme">
+      <created>1666806648303</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1666806648303</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +334,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add new component DialogList" />
     <MESSAGE value="add new component DialogItem" />
     <MESSAGE value="all components switch to russian language" />
     <MESSAGE value="change font to Inter Tight" />
@@ -342,7 +358,8 @@
     <MESSAGE value="add new component FriendsListItem" />
     <MESSAGE value="add redux to project" />
     <MESSAGE value="add new component EmptyPost" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new component EmptyPost" />
+    <MESSAGE value="add light theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="add light theme" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

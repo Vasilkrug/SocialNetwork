@@ -1,4 +1,5 @@
 @import "src/style/variables";
+
 .description {
   background-color: var(--background-color-blocks);
   border-radius: var(--border-radius);
@@ -11,6 +12,7 @@
   hr {
     border: 1px solid var(--border-color);
   }
+
   .user_title {
     width: 50%;
     border-bottom: 1px solid var(--border-color);

@@ -1,21 +1,21 @@
 import React, {useState} from 'react';
-import style from './Dialogs.module.scss'
 import Chat from "./Chat/Chat";
-import SearchForm from "../UI/SearchForm/SearchForm"
+import SearchForm from "../UI/SearchForm/SearchForm";
 import EmptyChat from "./EmptyChat/EmptyChat";
 import DialogsList from "./DialogsList/DialogsList";
+import style from "./Dialogs.module.scss";
 
 const Dialogs = () => {
     const [dialogs, setDialogs] = useState([
         {
             name: "Дмитрий Медведев",
-            path: "/images/avatar.png",
+            img: "/images/avatar.png",
             id: 1,
             message: 'wgergwergrhreh'
         },
         {
             name: "Владимир Путин",
-            path: "/images/animal.jpeg",
+            img: "/images/animal.jpeg",
             id: 2,
             message: 'awegwegewg'
         },
@@ -24,7 +24,7 @@ const Dialogs = () => {
 
     const findId = (id) => {
         const newObj = dialogs.find(city => city.id === id)
-        setActiveDialog(Object.assign({}, activeDialog, newObj))
+        setActiveDialog({...activeDialog, ...newObj})
     }
     return (
         <div className={style.dialogs_content}>

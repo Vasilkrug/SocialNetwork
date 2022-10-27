@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
+import {useSelector} from "react-redux";
 import ProfileLinks from "../ProfileLinks/ProfileLinks";
 import styles from "./ProfileDescription.module.scss";
-import {useSelector} from "react-redux";
 
 const ProfileDescription = (props) => {
     const postsLength = useSelector(state => state.posts.posts.length);

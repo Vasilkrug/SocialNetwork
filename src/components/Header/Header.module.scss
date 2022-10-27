@@ -1,4 +1,5 @@
 @import "src/style/variables";
+
 .header {
   grid-area: header;
   background-color: var(--background-color-blocks);
@@ -37,8 +38,12 @@
       height: 100%;
       position: relative;
 
-      & li ul {
+      .hidden {
         display: none;
+      }
+
+      .show {
+        display: block;
         padding: 10px;
         height: 200px;
         position: absolute;
@@ -48,12 +53,9 @@
         border: 1px solid var(--border-color);
         border-radius: 10px;
         background-color: var(--background-color-blocks);
-
-      }
-      & li > .show {
-        display: block;
-        animation: opacity 1s ease-in;
-
+        & > li {
+          padding: 10px;
+        }
         a {
           color: var(--title-color);
           font-size: 14px;

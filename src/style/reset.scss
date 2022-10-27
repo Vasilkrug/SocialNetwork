@@ -1,4 +1,5 @@
 @import "variables";
+
 ul li {
   list-style: none;
 }
@@ -24,6 +25,7 @@ body {
   background-color: var(--background-color-body);
   color: var(--text-color);
   transition: background-color 600ms ease;
+
   * {
     transition: background-color 400ms ease;
   }

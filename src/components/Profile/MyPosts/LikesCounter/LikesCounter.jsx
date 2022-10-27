@@ -1,17 +1,16 @@
-import React, {useState} from 'react';
+import React from 'react';
+import {useDispatch, useSelector} from "react-redux";
+import {incrementAction, decrementAction, toggleLikeAction} from "../../../../store/actions";
 import styles from "./LikesCounter.module.scss";
 
 const LikesCounter = () => {
-    const [isLike, setIsLike] = useState(false);
-    const [counter, setCounter] = useState(0);
-
-    const increment = () => setCounter(counter + 1);
-
-    const decrement = () => setCounter(counter - 1);
+    const dispatch = useDispatch()
+    const isLike = useSelector(state => state.posts.isLike)
+    const likeCount = useSelector(state => state.posts.postsLikeCounter)
 
     const likeHandler = () => {
-        setIsLike(!isLike)
-        isLike ? decrement() : increment()
+        dispatch(toggleLikeAction())
+        isLike ? dispatch(decrementAction()) : dispatch(incrementAction())
     };
     return (
         <div className={styles.like}>
@@ -19,7 +18,7 @@ const LikesCounter = () => {
                 onClick={likeHandler}
                 alt="like"
                 src={isLike ? "/images/icons/red-heart.png" : "/images/icons/heart.png"}/>
-                <p>&nbsp;{counter}</p>
+            <p>&nbsp;{likeCount < 1 ? '' : likeCount}</p>
         </div>
     );
 };
