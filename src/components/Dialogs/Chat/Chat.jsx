@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import TextArea from "../../UI/TextArea/TextArea";
 import style from "./Chat.module.scss";
 
@@ -10,7 +10,11 @@ const Chat = ({activeDialog}) => {
                 <img src={`${activeDialog.img}`} alt="user-icon"/>
             </div>
             <ul className={style.messages_list}>
-                <li className={style.messages_item}><p>{activeDialog.message}</p></li>
+                {activeDialog.messages.map(item => {
+                    return <li className={style[1 > 0? `messages_item` : `messages_item_friend`]}>
+                        <p>{item}</p>
+                    </li>
+                })}
             </ul>
             <div className={style.chat_input}>
                 <TextArea placeholder="Напишите сообщение"/>

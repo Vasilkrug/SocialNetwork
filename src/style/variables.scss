@@ -10,6 +10,7 @@ html[data-theme='dark'] {
   --border-radius: 10px;
   --background-color-hover: #5f6368;
   --chat-font-color: #C9C0BB;
+  --background-color-message: #444444;
 }
 
 html[data-theme='light'] {
@@ -24,5 +25,6 @@ html[data-theme='light'] {
   --border-radius: 10px;
   --background-color-hover: #E5E4E2;
   --chat-font-color: #474A51;
+  --background-color-message: #DEB887;
 }
 

@@ -5,6 +5,7 @@ import TextArea from "../../UI/TextArea/TextArea";
 import EmptyPost from "./EmptyPost/EmptyPost";
 import {addPostAction, deletePostAction} from "../../../store/actions";
 import styles from "./MyPosts.module.scss";
+import {ADD_POST} from "../../../store/actionsTypes";
 
 const MyPosts = (props) => {
     const dispatch = useDispatch()

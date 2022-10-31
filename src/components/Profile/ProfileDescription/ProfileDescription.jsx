@@ -17,7 +17,6 @@ const ProfileDescription = (props) => {
                 <li><img src='/images/icons/location-16.png' alt="location"/>Город: <span>Mосква</span></li>
                 <li><img src='/images/icons/birthday.png' alt="birthday"/>День рождения: <span>01.02.1993</span></li>
             </ul>
-            <hr/>
             <ProfileLinks/>
         </div>
     );

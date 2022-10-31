@@ -2,11 +2,10 @@
 
 .nav {
   grid-area: nav;
-  background-color: var(--background-color-blocks);
-  border-radius: var(--border-radius);
-  border: 1px solid var(--border-color);
-  height: calc(100vh - 60px - 40px);
 
+  @media(max-width: 700px) {
+    display: none;
+  }
   .nav_list {
     margin-top: 10px;
 
@@ -26,11 +25,11 @@
       padding: 10px;
       font-size: var(--font-size-text);
       cursor: pointer;
-    }
 
-    li:hover {
-      background-color: var(--background-color-blocks);
-      border-radius: var(--border-radius);
+      &:hover {
+        background-color: var(--background-color-blocks);
+        border-radius: var(--border-radius);
+      }
     }
   }
 

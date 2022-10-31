@@ -10,9 +10,11 @@ const FriendsListItem = () => {
             <div className={styles.friends_list_item_desc}>
                 <div className={styles.body}>
                     <a>Владимир Путин</a>
-                    <span>...</span>
                 </div>
-                <span>Написать сообщение</span>
+                <div className={styles.buttons}>
+                    <span>Написать сообщение</span>
+                    <span>Удалить из друзей</span>
+                </div>
             </div>
         </li>
     );

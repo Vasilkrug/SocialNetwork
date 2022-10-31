@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
 @import "./style/reset";
 
 .app_wrapper {
@@ -9,10 +8,15 @@
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
   max-width: 1200px;
-  margin: 20px auto;
+  margin: 0 auto;
 
   .app_wrapper_content {
     grid-area: content;
+    
+    @media (max-width: 700px) {
+      grid-column-start: header-start;
+      padding: 0 10px;
+    }
   }
 }
 

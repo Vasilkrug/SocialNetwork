@@ -5,7 +5,7 @@ const EmptyChat = (props) => {
     return (
         <div className={style.empty_chat_content}>
             <div className={style.image}>
-                <img src="/images/icons/chat.png"/>
+                <img src="/images/icons/chat.png" alt="chat-icon"/>
             </div>
             <div className={style.description}>
                 <p>Выберите чат</p>

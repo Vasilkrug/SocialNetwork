@@ -1,11 +1,12 @@
 import React, {useState} from "react";
-import {switchTheme} from "../../hooks/switchTheme";
+import {useSwitchTheme} from "../../hooks/useSwitchTheme";
 import styles from "./Header.module.scss";
+import DropDownMenu from "./DropDownMenu/DropDownMenu";
 
 const Header = (props) => {
 
     const [isMenuVisible, setIsMenuVisible] = useState(false);
-    const {theme, setTheme} = switchTheme();
+    const {theme, setTheme} = useSwitchTheme();
 
     const showMenu = () => {
         setIsMenuVisible(!isMenuVisible)
@@ -17,7 +18,7 @@ const Header = (props) => {
 
     return (
         <header className={styles.header}>
-            <img className={styles.icon} src="/images/icons/logo.png" alt="#"/>
+            <img className={styles.header_logo} src="/images/icons/logo.png" alt="#"/>
             <div className={styles.authorization}>
                 <ul className={styles.menu}>
                     <li><img src="/images/avatar.png" alt="avatar"/></li>
@@ -28,12 +29,7 @@ const Header = (props) => {
                                   d="M2.16 2.3a.75.75 0 0 1 1.05-.14L6 4.3l2.8-2.15a.75.75 0 1 1 .9 1.19l-3.24 2.5c-.27.2-.65.2-.92 0L2.3 3.35a.75.75 0 0 1-.13-1.05z"
                                   fill="currentColor" fillRule="evenodd"></path>
                         </svg>
-                        <ul className={styles[isMenuVisible ? `show` : 'hidden']}>
-                            <li onClick={(event) => handleThemeClick(event)}>
-                                <a type="button">{theme === 'dark' ? 'Светлая тема' : 'Темная тема'}</a>
-                            </li>
-                            <li><a type="button" href="#">Выйти</a></li>
-                        </ul>
+                      <DropDownMenu theme={theme} isMenuVisible={isMenuVisible} handleThemeClick={handleThemeClick}/>
                     </li>
                 </ul>
             </div>

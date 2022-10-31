@@ -10,7 +10,7 @@ const DialogsList = ({dialogs, findId}) => {
                     <DialogItem
                         pathToImage={item.img}
                         user={item.name}
-                        dialogPreview={item.message}
+                        dialogPreview={item.messages[0]}
                         id={item.id}
                         findId={findId}
                         key={item.id}

@@ -11,13 +11,13 @@ const Dialogs = () => {
             name: "Дмитрий Медведев",
             img: "/images/avatar.png",
             id: 1,
-            message: 'wgergwergrhreh'
+            messages: ['hello','как дела','wgwgwgwg','ggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefwfwfwfwfw']
         },
         {
             name: "Владимир Путин",
             img: "/images/animal.jpeg",
             id: 2,
-            message: 'awegwegewg'
+            messages: ['awegwegewg', 'erhyerh hhhh']
         },
     ])
     const [activeDialog, setActiveDialog] = useState({});
