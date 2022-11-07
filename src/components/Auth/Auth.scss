@@ -7,6 +7,7 @@
   min-height: 100vh;
   background-color: #FDF4E3;
 }
+
 .main {
   width: 350px;
   height: 500px;
@@ -15,15 +16,19 @@
   box-shadow: 5px 20px 50px gray;
   border: 1px solid #f8d59f;
 }
+
 #chk {
   display: none;
+
   &:checked {
     & ~ .login {
-      transform: translateY(-500px);
+      transform: translateY(-450px);
+
       label {
         transform: scale(1);
       }
     }
+
     & ~ .signup {
       label {
         transform: scale(.6);
@@ -31,62 +36,9 @@
     }
   }
 }
-.signup {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-label {
-  color: #f7c67c;
-  font-size: 35px;
-  justify-content: center;
-  display: flex;
-  margin: 60px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: .5s ease-in-out;
-}
-input {
-  width: 60%;
-  height: 30px;
-  background: #f8d59f;
-  justify-content: center;
-  display: flex;
-  margin: 20px auto;
-  padding: 10px;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-}
-button {
-  width: 60%;
-  height: 40px;
-  justify-content: center;
-  display: block;
-  color: #fff;
-  background: #f7c67c;
-  font-size: 20px;
-  margin: 20px auto 10px;
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  transition: .2s ease-in;
-  cursor: pointer;
-  &:hover {
-    background: #C9C0BB;
-  }
-}
-.login {
-  height: 460px;
-  background: #ffffff;
-  border-radius: 60% / 10%;
-  transform: translateY(-180px);
-  transition: .8s ease-in-out;
-  label {
-    color: #f7c67c;
-    transform: scale(.6);
-  }
-}
+
+
+
 
 
 

@@ -1,0 +1,47 @@
+input {
+  width: 60%;
+  height: 30px;
+  background: #f8d59f;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+button {
+  width: 60%;
+  height: 40px;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: #f7c67c;
+  font-size: 20px;
+  margin: 20px auto 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: .2s ease-in;
+  cursor: pointer;
+}
+
+.login {
+  height: 550px;
+  background: #ffffff;
+  border-radius: 60% / 10%;
+  transform: translateY(-50px);
+  transition: .8s ease-in-out;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 15px;
+  }
+
+  label {
+    color: #f7c67c;
+    transform: scale(.6);
+  }
+}

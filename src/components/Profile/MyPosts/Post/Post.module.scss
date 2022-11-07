@@ -35,11 +35,12 @@
         margin-bottom: 10px;
       }
 
-      button {
+      a {
         background: none;
         border: none;
         cursor: pointer;
         transition: 0.5s;
+        padding-right: 5px;
 
         &:hover {
           transform: scale(1.3);

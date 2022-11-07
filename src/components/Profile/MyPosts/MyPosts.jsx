@@ -31,7 +31,8 @@ const MyPosts = (props) => {
                     <Post
                         deletePost={deletePost}
                         key={post.id} id={post.id}
-                        message={post.message}/>)
+                        message={post.message}
+                    />)
                 :
                 <EmptyPost/>}
         </div>
