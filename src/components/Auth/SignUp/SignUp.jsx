@@ -1,14 +1,16 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import "./SignUp.scss"
 import {useInput} from "../../../hooks/useInput";
+import axios from "axios";
 
 const SignUp = () => {
     const userName = useInput('', {isEmpty: ''});
     const userEmail = useInput('', {isEmail: ''});
     const userPassword = useInput('', {isEmpty: '', minLength: 8});
     const repeatUserPassword = useInput('');
+    const [fetchingError, setFetchingError] = useState('');
 
-    const handleFormValid = () => {
+    const isFormValid = () => {
         return userName.inputValid &&
             userEmail.inputValid &&
             userPassword.inputValid &&
@@ -17,9 +19,30 @@ const SignUp = () => {
 
     const registrationSubmit = (e) => {
         e.preventDefault()
-        handleFormValid() ?
-            alert(`Добро пожаловать, ${userName.value}`)
+        isFormValid() ?
+            registrationRequest()
             : alert('Заполните поля правильно')
+    }
+
+    const getFetchingError = (error) => {
+      switch (error){
+          case 'User already exists':
+              setFetchingError('Пользователь с такой почтой уже существует')
+              break;
+          case '':
+              setFetchingError('')
+      }
+    }
+
+ const registrationRequest = async () => {
+        try {
+            const request = await axios.get(`http://localhost:3001/user/create?email=${userEmail.value}&password=${userPassword.value}&name=${userName.value}`)
+            const res = await request
+            getFetchingError('')
+            console.log(res.data.message.user)
+        }catch (e){
+            getFetchingError(e.response.data.message)
+        }
     }
 
     return (
@@ -63,6 +86,7 @@ const SignUp = () => {
                     name="RepeatPassword"
                     placeholder="Повторите пароль"
                     required=""/>
+                {<span>{fetchingError}</span> || ''}
                 <button onClick={(e) => registrationSubmit(e)}>Создать аккаунт</button>
             </form>
         </div>
