@@ -33,6 +33,11 @@ button {
   transform: translateY(-50px);
   transition: .8s ease-in-out;
 
+  span {
+    color: red;
+    font-size: 14px;
+  }
+
   form {
     display: flex;
     flex-direction: column;
