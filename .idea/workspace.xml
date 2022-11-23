@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="add validation to authorization component">
+    <list default="true" id="02c4da1f-1586-466e-90dd-8848fecf6576" name="Changes" comment="added user login with server request">
+      <change afterPath="$PROJECT_DIR$/src/store/actionsTypes/UserActionsTypes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Auth/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Auth/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Auth/Login/Login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Auth/Login/Login.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Auth/SignUp/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Auth/SignUp/SignUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/DropDownMenu/DropDownMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/DropDownMenu/DropDownMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/LikesCounter/LikesCounter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/LikesCounter/LikesCounter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileDescription/ProfileDescription.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/PostReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/PostReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/PostActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actionsTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actionsTypes/PostActionsTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/vasilkrug/projects/node",
+    "last_opened_file_path": "/home/vasilkrug/projects/sam-app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,6 +68,9 @@
       <recent name="$PROJECT_DIR$/src/components/Dialogs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/store/reducers" />
+      <recent name="$PROJECT_DIR$/src/store/actionsTypes" />
+      <recent name="$PROJECT_DIR$/src/store/actions" />
       <recent name="$PROJECT_DIR$/src/components/Dialogs/DialogsList" />
     </key>
   </component>
@@ -111,6 +122,10 @@
       <workItem from="1668183224261" duration="6815000" />
       <workItem from="1668340759627" duration="17296000" />
       <workItem from="1668614502599" duration="6203000" />
+      <workItem from="1668704839538" duration="4022000" />
+      <workItem from="1668791761366" duration="1734000" />
+      <workItem from="1669046322446" duration="7431000" />
+      <workItem from="1669219773418" duration="3363000" />
     </task>
     <task id="LOCAL-00001" summary="scss added to all components">
       <created>1664817771604</created>
@@ -322,7 +337,28 @@
       <option name="project" value="LOCAL" />
       <updated>1667848061688</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add axios library">
+      <created>1668707497553</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1668707497553</updated>
+    </task>
+    <task id="LOCAL-00032" summary="added user registration with server request">
+      <created>1668707589226</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1668707589226</updated>
+    </task>
+    <task id="LOCAL-00033" summary="added user login with server request">
+      <created>1668707618661</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1668707618661</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,9 +376,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change font to Inter Tight" />
-    <MESSAGE value="add title to ProfileDescription" />
-    <MESSAGE value="add title to Post" />
     <MESSAGE value="delete component DialogList" />
     <MESSAGE value="add likes" />
     <MESSAGE value="add styles to likes" />
@@ -365,7 +398,10 @@
     <MESSAGE value="add light theme" />
     <MESSAGE value="add likes to store" />
     <MESSAGE value="add validation to authorization component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add validation to authorization component" />
+    <MESSAGE value="add axios library" />
+    <MESSAGE value="added user registration with server request" />
+    <MESSAGE value="added user login with server request" />
+    <option name="LAST_COMMIT_MESSAGE" value="added user login with server request" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

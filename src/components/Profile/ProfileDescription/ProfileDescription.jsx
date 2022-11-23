@@ -5,11 +5,11 @@ import styles from "./ProfileDescription.module.scss";
 
 const ProfileDescription = (props) => {
     const postsLength = useSelector(state => state.posts.posts.length);
-
+    const user = useSelector(state => state.user.user)
     return (
         <div className={styles.description}>
             <div className={styles.user_title}>
-                <h2>Василий Кругловецкий</h2>
+                <h2>{user.name}</h2>
             </div>
             <ul className={styles.user}>
                 <li><img src='/images/icons/post.png' alt="post"/>Посты: <span>{postsLength}</span></li>

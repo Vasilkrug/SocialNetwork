@@ -1,6 +1,6 @@
 import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import {incrementAction, decrementAction, toggleLikeAction} from "../../../../store/actions";
+import {incrementAction, decrementAction, toggleLikeAction} from "../../../../store/actions/PostActions";
 import styles from "./LikesCounter.module.scss";
 
 const LikesCounter = () => {

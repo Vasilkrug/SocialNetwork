@@ -1,8 +1,10 @@
-import {createStore,combineReducers} from "redux";
-import {PostReducer} from "./PostReducer";
+import {createStore, combineReducers} from "redux";
+import {PostReducer} from "./reducers/PostReducer";
+import {UserReducer} from "./reducers/UserReducer";
 
 const rootReducer = combineReducers({
-posts:PostReducer
+    posts: PostReducer,
+    user: UserReducer,
 })
 
-export const store = createStore(rootReducer,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
+export const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())

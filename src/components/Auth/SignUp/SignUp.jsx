@@ -2,6 +2,9 @@ import React, {useState} from 'react';
 import "./SignUp.scss"
 import {useInput} from "../../../hooks/useInput";
 import axios from "axios";
+import {useDispatch} from "react-redux";
+import {setLoginAction, setUserAction} from "../../../store/actions/UserActions";
+import {setToLocalStorage} from "../../../utilits/utilits";
 
 const SignUp = () => {
     const userName = useInput('', {isEmpty: ''});
@@ -9,6 +12,8 @@ const SignUp = () => {
     const userPassword = useInput('', {isEmpty: '', minLength: 8});
     const repeatUserPassword = useInput('');
     const [fetchingError, setFetchingError] = useState('');
+
+    const dispatch = useDispatch()
 
     const isFormValid = () => {
         return userName.inputValid &&
@@ -39,7 +44,9 @@ const SignUp = () => {
             const request = await axios.get(`http://localhost:3001/user/create?email=${userEmail.value}&password=${userPassword.value}&name=${userName.value}`)
             const res = await request
             getFetchingError('')
-            console.log(res.data.message.user)
+            setToLocalStorage('user',res.data.message.user)
+            dispatch(setUserAction(res.data.message.user))
+            dispatch(setLoginAction(true))
         }catch (e){
             getFetchingError(e.response.data.message)
         }

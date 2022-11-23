@@ -3,9 +3,9 @@ import {useDispatch, useSelector} from "react-redux";
 import Post from "./Post/Post";
 import TextArea from "../../UI/TextArea/TextArea";
 import EmptyPost from "./EmptyPost/EmptyPost";
-import {addPostAction, deletePostAction} from "../../../store/actions";
+import {addPostAction, deletePostAction} from "../../../store/actions/PostActions";
 import styles from "./MyPosts.module.scss";
-import {ADD_POST} from "../../../store/actionsTypes";
+import {ADD_POST} from "../../../store/actionsTypes/PostActionsTypes";
 
 const MyPosts = (props) => {
     const dispatch = useDispatch()

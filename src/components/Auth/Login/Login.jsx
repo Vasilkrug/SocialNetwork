@@ -1,18 +1,26 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {useInput} from "../../../hooks/useInput";
 import "./Login.scss"
 import axios from "axios";
+import {useDispatch} from "react-redux";
+import {setLoginAction, setUserAction} from "../../../store/actions/UserActions";
+import {setToLocalStorage} from "../../../utilits/utilits";
 
 const Login = () => {
     const loginEmail = useInput('');
     const loginPassword = useInput('');
     const [fetchingError, setFetchingError] = useState('');
+    const dispatch = useDispatch();
 
-    const loginRequest = async () => {
+    const loginRequest = async (e) => {
+        e.preventDefault()
         try {
             const request = await axios.get(`http://localhost:3001/user/login?email=${loginEmail.value}&password=${loginPassword.value}`)
             const response = await request
             setFetchingError('')
+            setToLocalStorage('user',response.data.message.user)
+            dispatch(setUserAction(response.data.message.user))
+            dispatch(setLoginAction(true))
         } catch (e) {
             setFetchingError('Неверная почта или пароль')
         }
