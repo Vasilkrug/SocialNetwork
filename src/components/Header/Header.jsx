@@ -1,9 +1,9 @@
 import React, {useState} from "react";
-import {useSwitchTheme} from "../../hooks/useSwitchTheme";
-import styles from "./Header.module.scss";
-import DropDownMenu from "./DropDownMenu/DropDownMenu";
 import {useDispatch} from "react-redux";
+import DropDownMenu from "./DropDownMenu/DropDownMenu";
+import {useSwitchTheme} from "../../hooks/useSwitchTheme";
 import {setLoginAction, setUserAction} from "../../store/actions/UserActions";
+import styles from "./Header.module.scss";
 
 const Header = (props) => {
     const [isMenuVisible, setIsMenuVisible] = useState(false);
@@ -36,11 +36,11 @@ const Header = (props) => {
                                   d="M2.16 2.3a.75.75 0 0 1 1.05-.14L6 4.3l2.8-2.15a.75.75 0 1 1 .9 1.19l-3.24 2.5c-.27.2-.65.2-.92 0L2.3 3.35a.75.75 0 0 1-.13-1.05z"
                                   fill="currentColor" fillRule="evenodd"></path>
                         </svg>
-                      <DropDownMenu
-                          theme={theme}
-                          isMenuVisible={isMenuVisible}
-                          handleThemeClick={handleThemeClick}
-                          logoutUser={logoutUser}/>
+                        <DropDownMenu
+                            theme={theme}
+                            isMenuVisible={isMenuVisible}
+                            handleThemeClick={handleThemeClick}
+                            logoutUser={logoutUser}/>
                     </li>
                 </ul>
             </div>

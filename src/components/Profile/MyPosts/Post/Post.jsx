@@ -9,7 +9,8 @@ const Post = ({message, deletePost, id}) => {
             <div className={styles.post_description}>
                 <div className={styles.description_header}>
                     <h3>Василий Кругловецкий</h3>
-                    <a type="button" onClick={() => deletePost(id)}><img src="/images/icons/close.svg" alt="close-icon"/>
+                    <a type="button" onClick={() => deletePost(id)}><img src="/images/icons/close.svg"
+                                                                         alt="close-icon"/>
                     </a>
                 </div>
                 <div className={styles.description_body}>

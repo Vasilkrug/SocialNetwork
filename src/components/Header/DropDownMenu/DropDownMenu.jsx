@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./DropDownMenu.module.scss";
 
-const DropDownMenu = ({theme,isMenuVisible,handleThemeClick,logoutUser}) => {
+const DropDownMenu = ({theme, isMenuVisible, handleThemeClick, logoutUser}) => {
     return (
         <ul className={styles[isMenuVisible ? `show` : 'hidden']}>
             <li onClick={(event) => handleThemeClick(event)}>

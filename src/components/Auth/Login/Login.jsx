@@ -1,10 +1,10 @@
-import React, {useState} from 'react';
-import {useInput} from "../../../hooks/useInput";
-import "./Login.scss"
-import axios from "axios";
+import React, {useState} from "react";
 import {useDispatch} from "react-redux";
+import axios from "axios";
+import {useInput} from "../../../hooks/useInput";
 import {setLoginAction, setUserAction} from "../../../store/actions/UserActions";
 import {setToLocalStorage} from "../../../utilits/utilits";
+import "./Login.scss";
 
 const Login = () => {
     const loginEmail = useInput('');
@@ -18,11 +18,11 @@ const Login = () => {
             const request = await axios.get(`http://localhost:3001/user/login?email=${loginEmail.value}&password=${loginPassword.value}`)
             const response = await request
             setFetchingError('')
-            setToLocalStorage('user',response.data.message.user)
+            setToLocalStorage('user', response.data.message.user)
             dispatch(setUserAction(response.data.message.user))
             dispatch(setLoginAction(true))
         } catch (e) {
-            setFetchingError('Неверная почта или пароль')
+            setFetchingError("Неверная почта или пароль")
         }
     }
 

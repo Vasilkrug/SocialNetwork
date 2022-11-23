@@ -9,7 +9,7 @@ export const UserReducer = (state = initialState, action) => {
         case LOGIN:
             return {...state, isLogin: action.isLogin};
         case SET_USER:
-            return {...state,user: action.user}
+            return {...state, user: action.user}
         default:
             return state;
     }

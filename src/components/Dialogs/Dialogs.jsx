@@ -11,7 +11,7 @@ const Dialogs = () => {
             name: "Дмитрий Медведев",
             img: "/images/avatar.png",
             id: 1,
-            messages: ['hello','как дела','wgwgwgwg','ggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefwfwfwfwfw']
+            messages: ['hello', 'как дела', 'wgwgwgwg', 'ggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefwfwfwfwfw']
         },
         {
             name: "Владимир Путин",

@@ -1,15 +1,15 @@
 import React, {useEffect} from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {useDispatch, useSelector} from "react-redux";
 import Header from "./components/Header/Header";
 import NavBar from "./components/NavBar/NavBar";
 import Profile from "./components/Profile/Profile";
 import Dialogs from "./components/Dialogs/Dialogs";
 import FriendsList from "./components/FriendsList/FriendsList";
 import Chat from "./components/Dialogs/Chat/Chat";
-import "./App.scss";
 import Auth from "./components/Auth/Auth";
-import {useDispatch, useSelector} from "react-redux";
 import {setLoginAction, setUserAction} from "./store/actions/UserActions";
+import "./App.scss";
 
 const App = () => {
     const isLogin = useSelector(state => state.user.isLogin);

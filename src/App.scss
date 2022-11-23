@@ -12,7 +12,7 @@
 
   .app_wrapper_content {
     grid-area: content;
-    
+
     @media (max-width: 700px) {
       grid-column-start: header-start;
       padding: 0 10px;

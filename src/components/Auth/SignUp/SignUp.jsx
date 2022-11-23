@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import "./SignUp.scss"
+import {useDispatch} from "react-redux";
 import {useInput} from "../../../hooks/useInput";
 import axios from "axios";
-import {useDispatch} from "react-redux";
 import {setLoginAction, setUserAction} from "../../../store/actions/UserActions";
 import {setToLocalStorage} from "../../../utilits/utilits";
+import "./SignUp.scss";
 
 const SignUp = () => {
     const userName = useInput('', {isEmpty: ''});
@@ -30,24 +30,24 @@ const SignUp = () => {
     }
 
     const getFetchingError = (error) => {
-      switch (error){
-          case 'User already exists':
-              setFetchingError('Пользователь с такой почтой уже существует')
-              break;
-          case '':
-              setFetchingError('')
-      }
+        switch (error) {
+            case 'User already exists':
+                setFetchingError('Пользователь с такой почтой уже существует')
+                break;
+            case '':
+                setFetchingError('')
+        }
     }
 
- const registrationRequest = async () => {
+    const registrationRequest = async () => {
         try {
             const request = await axios.get(`http://localhost:3001/user/create?email=${userEmail.value}&password=${userPassword.value}&name=${userName.value}`)
             const res = await request
             getFetchingError('')
-            setToLocalStorage('user',res.data.message.user)
+            setToLocalStorage('user', res.data.message.user)
             dispatch(setUserAction(res.data.message.user))
             dispatch(setLoginAction(true))
-        }catch (e){
+        } catch (e) {
             getFetchingError(e.response.data.message)
         }
     }

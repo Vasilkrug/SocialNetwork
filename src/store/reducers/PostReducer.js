@@ -13,11 +13,11 @@ export const PostReducer = (state = initialState, action) => {
         case DELETE_POST:
             return {...state, posts: state.posts.filter(post => post.id !== action.id)}
         case LIKES_TOGGLE:
-             return {...state,isLike: !state.isLike}
+            return {...state, isLike: !state.isLike}
         case INCREMENT:
-            return {...state,postsLikeCounter: state.postsLikeCounter + 1}
+            return {...state, postsLikeCounter: state.postsLikeCounter + 1}
         case DECREMENT:
-            return {...state,postsLikeCounter: state.postsLikeCounter - 1}
+            return {...state, postsLikeCounter: state.postsLikeCounter - 1}
         default:
             return state;
     }
