@@ -1,4 +1,4 @@
-import {ADD_POST, DELETE_POST, LIKES_TOGGLE, INCREMENT, DECREMENT} from "./actionsTypes";
+import {ADD_POST, DELETE_POST, LIKES_TOGGLE, INCREMENT, DECREMENT} from "../actionsTypes/PostActionsTypes";
 
 const initialState = {
     posts: [],
