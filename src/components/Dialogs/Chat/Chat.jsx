@@ -10,8 +10,8 @@ const Chat = ({activeDialog}) => {
                 <img src={`${activeDialog.img}`} alt="user-icon"/>
             </div>
             <ul className={style.messages_list}>
-                {activeDialog.messages.map(item => {
-                    return <li className={style[1 > 0 ? `messages_item` : `messages_item_friend`]}>
+                {activeDialog.messages.map((item,index) => {
+                    return <li key={index} className={style[1 > 0 ? `messages_item` : `messages_item_friend`]}>
                         <p>{item}</p>
                     </li>
                 })}

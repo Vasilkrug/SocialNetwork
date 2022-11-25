@@ -3,14 +3,13 @@ import {useDispatch, useSelector} from "react-redux";
 import Post from "./Post/Post";
 import TextArea from "../../UI/TextArea/TextArea";
 import EmptyPost from "./EmptyPost/EmptyPost";
-import {addPostAction, deletePostAction} from "../../../store/actions/PostActions";
+import {addPostAction, deletePostAction, toggleLikeAction} from "../../../store/actions/PostActions";
 import styles from "./MyPosts.module.scss";
-import {ADD_POST} from "../../../store/actionsTypes/PostActionsTypes";
 
 const MyPosts = (props) => {
     const dispatch = useDispatch()
     const posts = useSelector(state => state.posts.posts)
-
+    const userId = useSelector(state => state.user.user.id)
     const addPost = (e) => {
         const successAdding = () => {
             e.preventDefault()
@@ -22,6 +21,8 @@ const MyPosts = (props) => {
 
     const deletePost = (id) => dispatch(deletePostAction(id));
 
+    const likesToggle = (postId,userId) => dispatch(toggleLikeAction(postId,userId))
+
     return (
         <div className={styles.my_posts}>
             <TextArea
@@ -30,8 +31,12 @@ const MyPosts = (props) => {
             {posts.length ? posts.map(post =>
                     <Post
                         deletePost={deletePost}
-                        key={post.id} id={post.id}
+                        key={post.id}
+                        id={post.id}
                         message={post.message}
+                        likes={post.likes}
+                        userId={userId}
+                        likesToggle={likesToggle}
                     />)
                 :
                 <EmptyPost/>}
