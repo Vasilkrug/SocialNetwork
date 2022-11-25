@@ -1,10 +1,12 @@
-import {createStore, combineReducers} from "redux";
+import {createStore, combineReducers, applyMiddleware} from "redux";
 import {PostReducer} from "./reducers/PostReducer";
 import {UserReducer} from "./reducers/UserReducer";
+import thunk from "redux-thunk";
 
 const rootReducer = combineReducers({
     posts: PostReducer,
     user: UserReducer,
 })
 
-export const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
+export const store = createStore(rootReducer,
+    applyMiddleware(thunk),)

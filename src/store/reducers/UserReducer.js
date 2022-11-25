@@ -1,4 +1,4 @@
-import {LOGIN, SET_USER} from "../actionsTypes/UserActionsTypes";
+import {LOGIN, GET_USER} from "../actionsTypes/UserActionsTypes";
 
 const initialState = {
     isLogin: false,
@@ -8,7 +8,7 @@ export const UserReducer = (state = initialState, action) => {
     switch (action.type) {
         case LOGIN:
             return {...state, isLogin: action.isLogin};
-        case SET_USER:
+        case GET_USER:
             return {...state, user: action.user}
         default:
             return state;
